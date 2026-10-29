@@ -1,0 +1,33 @@
+# Personal development configuration and workspace data
+.env
+.env.*
+!.env.example
+.setup_done
+json/
+*.local.json
+.vscode/
+.idea/
+.venv/
+venv/
+venv*/
+__pycache__/
+*.pyc
+*.log
+*.sqlite
+*.db
+*.sql.gz
+*.bak
+*.tmp
+seed_debug.ipynb
+seed_images_urls.php
+IMAGES_IMPLEMENTATION.md
+
+# User uploads are private; preserve only the clearly named vector DEMO placeholders
+/uploads/*
+!/uploads/.gitkeep
+!/uploads/.htaccess
+!/uploads/apt-*.svg
+
+# OS and build artifacts
+.DS_Store
+Thumbs.db
